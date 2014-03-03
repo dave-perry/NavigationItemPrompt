@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C9B1298518C511C100CB750A /* black.png in Resources */ = {isa = PBXBuildFile; fileRef = C9B1298418C511C100CB750A /* black.png */; };
 		E6E73FF918C2267F00FD8926 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E73FF818C2267F00FD8926 /* Foundation.framework */; };
 		E6E73FFB18C2267F00FD8926 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E73FFA18C2267F00FD8926 /* CoreGraphics.framework */; };
 		E6E73FFD18C2267F00FD8926 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E73FFC18C2267F00FD8926 /* UIKit.framework */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C9B1298418C511C100CB750A /* black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black.png; sourceTree = "<group>"; };
 		E6E73FF518C2267F00FD8926 /* NavigationItemPrompt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationItemPrompt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E73FF818C2267F00FD8926 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E6E73FFA18C2267F00FD8926 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,6 +114,7 @@
 				E6E7400718C2267F00FD8926 /* AppDelegate.h */,
 				E6E7400818C2267F00FD8926 /* AppDelegate.m */,
 				E6E7400A18C2267F00FD8926 /* Main.storyboard */,
+				C9B1298418C511C100CB750A /* black.png */,
 				E6E7401018C2267F00FD8926 /* Images.xcassets */,
 				E6E73FFF18C2267F00FD8926 /* Supporting Files */,
 			);
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6E7401118C2267F00FD8926 /* Images.xcassets in Resources */,
+				C9B1298518C511C100CB750A /* black.png in Resources */,
 				E6E7400318C2267F00FD8926 /* InfoPlist.strings in Resources */,
 				E6E7400C18C2267F00FD8926 /* Main.storyboard in Resources */,
 			);
@@ -455,6 +459,7 @@
 				E6E7402918C2267F00FD8926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E6E7402A18C2267F00FD8926 /* Build configuration list for PBXNativeTarget "NavigationItemPromptTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +468,7 @@
 				E6E7402C18C2267F00FD8926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
